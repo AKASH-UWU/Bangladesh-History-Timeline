@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap');
+
+
+
+@font-face {
+  font-family: 'NotoSansBengali';
+  src: url('NotoSansBengali-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -6,3 +14,4 @@ body {
   font-family: 'Noto Sans Bengali', sans-serif;
   background-color: #f8f8f8;
 }
+
