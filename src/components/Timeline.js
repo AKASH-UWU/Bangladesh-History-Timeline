@@ -1,4 +1,3 @@
-// components/Timeline.js
 import React from 'react';
 
 const timelineData = [
@@ -38,7 +37,6 @@ const timelineData = [
     description: 'পাকিস্তানি সেনাবাহিনী আত্মসমর্পণ করে এবং বাংলাদেশ স্বাধীনতা অর্জন করে।',
     image: '/images/victory.jpg',
   },
-  // Add more events as needed
 ];
 
 export default function Timeline() {
@@ -64,12 +62,12 @@ export default function Timeline() {
           position: relative;
           margin-bottom: 50px;
           padding-left: 20px;
-          border-left: 3px solid #008000; /* green tone */
+          border-left: 3px solid #008000;
         }
         .timeline-date {
           font-weight: bold;
           font-size: 1.1rem;
-          color: #E10600; /* red tone */
+          color: #E10600;
           margin-bottom: 10px;
         }
         .timeline-content {
@@ -91,6 +89,37 @@ export default function Timeline() {
           margin-top: 10px;
           max-width: 100%;
           border-radius: 5px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+          .timeline-item {
+            margin-bottom: 30px;
+            padding-left: 15px;
+          }
+          .timeline-date {
+            font-size: 1rem;
+          }
+          .timeline-content {
+            padding: 10px;
+          }
+          .timeline-content h2 {
+            font-size: 1.3rem;
+          }
+          .timeline-content p {
+            font-size: 1rem;
+          }
+        }
+        @media (max-width: 480px) {
+          .timeline-date {
+            font-size: 0.9rem;
+          }
+          .timeline-content h2 {
+            font-size: 1.2rem;
+          }
+          .timeline-content p {
+            font-size: 0.9rem;
+          }
         }
       `}</style>
     </div>

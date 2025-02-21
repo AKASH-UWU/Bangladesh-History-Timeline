@@ -13,7 +13,9 @@ export default function Home() {
       <Timeline />
 
       <footer>
-      <p>A small presentation from - <strong><a href="https://akash-pf.vercel.app">Akash Ahmed &lt;3</a></strong></p>
+        <p>
+          A small presentation from - <strong><a href="https://akash-pf.vercel.app">Akash Ahmed &lt;3</a></strong>
+        </p>
         <p>Thanks for the images from the respective owners:</p>
         <p>
           <a href="https://countercurrents.org/" target="_blank" rel="noopener noreferrer">countercurrents</a>,  
@@ -21,7 +23,8 @@ export default function Home() {
           <a href="https://www.bd-bulletin.com/" target="_blank" rel="noopener noreferrer">bd-bulletin</a>,
           <a href="https://nasaramin.com/" target="_blank" rel="noopener noreferrer">nasaramin</a>,
           <a href="https://www.jugantor.com/" target="_blank" rel="noopener noreferrer">jugantor</a>,
-          <a href="https://bn.wikipedia.org/" target="_blank" rel="noopener noreferrer">wikipedia</a>
+          <a href="https://bn.wikipedia.org/" target="_blank" rel="noopener noreferrer">wikipedia</a>,
+          <a href="https://www.flaticon.com/free-icons/bangladesh" title="bangladesh icons">flaticon</a>
         </p>
       </footer>
 
@@ -34,7 +37,7 @@ export default function Home() {
         header {
           text-align: center;
           margin-bottom: 40px;
-          color: #E10600; /* red tone */
+          color: #E10600;
         }
         h1 {
           margin: 0;
@@ -59,6 +62,33 @@ export default function Home() {
         }
         footer a:hover {
           text-decoration: underline;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+          .container {
+            padding: 15px;
+          }
+          h1 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+          footer {
+            font-size: 0.8rem;
+          }
+        }
+        @media (max-width: 480px) {
+          .container {
+            padding: 10px;
+          }
+          h1 {
+            font-size: 1.8rem;
+          }
+          p {
+            font-size: 0.9rem;
+          }
         }
       `}</style>
     </div>
