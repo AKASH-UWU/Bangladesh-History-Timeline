@@ -16,4 +16,11 @@ A timeline showcasing key events in Bangladesh's history, from the Language Move
 
 - **React (Next.js):** For building interactive, component-based UIs.
 - **Styled JSX & CSS:** For scoped styling and responsive layouts.
-- **Font Loading API:** For smooth loading of the NotoSansBengali font.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
